@@ -1,0 +1,78 @@
+body {
+    background-color: #4F4F4F;
+}
+
+header {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+header:hover {
+    color: limegreen;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+}
+
+td {
+    border: 10px;
+    padding-left: 10px;  
+    padding-right: 10px;
+  
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+a {
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 720px;
+}
+
+.principal {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.principal:hover {
+    color: limegreen;    
+}
+
+p {
+    font-size: 22px;
+}
+
+.rodape {
+    color: white;
+}
+
+.rodape:hover {
+    color: limegreen;
+}
+
+.botao {
+    margin-left: 780px;
+}

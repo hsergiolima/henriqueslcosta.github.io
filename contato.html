@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><h1>Henrique - Desenvolvedor Web</h1></a>
+        </div>
+    </header>
+    <nav>
+        <table align="center">
+            <th>
+                <td><div class="menu"><a href="sobre-mim.html">1. Sobre mim</a></div></td>
+                <td><div class="menu"><a href="formacao.html">2. Formação</a></div></td>
+                <td><div class="menu"><a href="projetos.html">3. Projetos</a></div></td>
+                <td><div class="menu"><a href="contato.html">4. Contato</a></div></td>
+            </th>
+        </table>
+    </nav>
+    <hr>
+    <form>
+        <table align="center">
+            <tr class="principal">
+                <td>Nome:</td><td><input type="text"></td>
+            </tr>
+            <tr class="principal">
+                <td>E-mail:</td><td><input type="text"></td>
+            </tr>
+            <tr class="principal">
+                <td>Mensagem:</td>
+                <td><textarea rows="4" cols="50"></textarea></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <h5 class="rodape">Desenvolvido por Henrique Costa. Todos os direitos reservados.</h5>
+    </footer>
+    <input class="botao" type="button" value="Enviar" onclick="msg()">
+    <script>
+        function msg() {
+            alert("Obrigado por entrar em contato! No momento, este formulário não " +
+            "está fcunional, mas é possível enviar e-mail para: henriqueslcosta@gmail.com.");
+        }
+    </script>
+</body>
+</html>
