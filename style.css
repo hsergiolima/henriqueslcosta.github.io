@@ -2,16 +2,22 @@ body {
     background-color: #010101;
 }
 
-header {
+.title {
+    text-decoration: none;
     color: white;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    border: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;  
+    padding-right: 50px;
 }
 
-header:hover {
-    color: limegreen;
+.title:hover {    
+    background-color: blue;
+    color: white;      
 }
 
 nav {
@@ -49,17 +55,6 @@ article {
     text-align: justify;
 }
 
-a {
-    font-weight: bolder;
-    font-size: 18px;
-    color:white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: orange;
-}
-
 
 footer {
     position: absolute;
@@ -70,10 +65,16 @@ footer {
 .principal {
     color: white;
     margin-bottom: 50px;
+    width: fit-content;
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .principal:hover {
-    color: limegreen;    
+    background-color: green;
+    color: white;    
 }
 
 p {
