@@ -1,5 +1,5 @@
 body {
-    background-color: #4F4F4F;
+    background-color: #010101;
 }
 
 header {
@@ -21,11 +21,25 @@ nav {
     align-items: center;
 }
 
-td {
+/*td {
     border: 10px;
     padding-left: 10px;  
-    padding-right: 10px;
-  
+    padding-right: 10px; 
+}*/
+
+.menu {
+    height: fit-content;
+    width: fit-content;
+    background-color: blue;
+    border: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;  
+    padding-right: 50px; 
+}
+
+.menu:hover {
+    background-color: green;
 }
 
 article {
@@ -36,13 +50,14 @@ article {
 }
 
 a {
+    font-weight: bolder;
     font-size: 18px;
     color:white;
     text-decoration: none;
 }
 
 a:hover {
-    color: limegreen;
+    color: orange;
 }
 
 
